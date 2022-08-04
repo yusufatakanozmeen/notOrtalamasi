@@ -19,7 +19,7 @@ public class notOrtalamasi {
         ortalama = (not1 + not2 + not3 + not4 + not5 + not6) / 6;
         if(ortalama>60){
            System.out.println("Sınıfı Geçti Ortalamaniz : " + ortalama);
-        }elsse{
+        }else{
                 System.out.println("Sınıfta Kaldınız Ortalamaniz : " + ortalama);
 
         }       
