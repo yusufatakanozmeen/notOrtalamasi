@@ -1,0 +1,3 @@
+# notOrtalamasi
+
+www.patika.dev
