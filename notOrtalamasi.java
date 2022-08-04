@@ -17,6 +17,12 @@ public class notOrtalamasi {
         System.out.println("Müzik Notu giriniz : ");
         not6 = input.nextInt();
         ortalama = (not1 + not2 + not3 + not4 + not5 + not6) / 6;
-        System.out.println("Ortalamaniz : " + ortalama);
+        if(ortalama>60){
+           System.out.println("Sınıfı Geçti Ortalamaniz : " + ortalama);
+        }elsse{
+                System.out.println("Sınıfta Kaldınız Ortalamaniz : " + ortalama);
+
+        }       
+
     }
 }
